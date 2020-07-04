@@ -1,5 +1,5 @@
 <div align="center">
-	<h1>Launchpad Fixer <img src="./icons/icon128.png"></h1>
+	<h1>Launchpad Fixer <img src="./assets/icon128.png"></h1>
 </div>
 
 ## About

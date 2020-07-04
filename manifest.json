@@ -1,0 +1,22 @@
+{
+ "manifest_version": 2,
+ "name": "Macmillan Launchpad Fixer",
+ "version": "1.0.0",
+ "description": "Fixes the viewport for Macmillan's Launchpad online textbook viewer",
+ "short_name": "LaunchFix",
+ "permissions": ["activeTab", "declarativeContent"],
+ "content_scripts": [
+   {
+     "matches": ["https://www.macmillanhighered.com/launchpad/*"],
+     "css": ["styles.css"]
+   }
+ ],
+ "browser_action": {
+   "default_icon": {
+     "16": "assets/icon16.png",
+     "48": "assets/icon48.png",
+     "128": "assets/icon128.png"
+   },
+   "default_popup": "popup.html"
+ }
+}
